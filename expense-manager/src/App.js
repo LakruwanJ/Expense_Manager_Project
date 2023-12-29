@@ -1,7 +1,7 @@
 import React from 'react';
+import AddIncome from './components/AddRemove/AddIncome';
 
 
-import MainDashboard from './MainDashboard';
 
 function App() {
   return (
@@ -9,14 +9,10 @@ function App() {
    
   <h1> 
 
-  <MainDashboard/>
+  <AddIncome/>
 
   </h1>
     
-    
-    
- 
-      
     </div>
   );
 }
